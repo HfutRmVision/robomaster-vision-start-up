@@ -20,16 +20,14 @@ pacman -S mingw-w64-ucrt-x86_64-cmake \
 
 装的是什么：
 
-| 包 | 提供什么 |
-| --- | --- |
-| `base-devel` + `toolchain` | GCC/G++ 编译器及基础开发工具 |
-| `cmake` | CMake 构建工具（我们项目的主构建工具） |
-| `ninja` | 快速的构建执行器，配合 CMake 使用 |
-| `make` | 传统构建工具，部分老项目需要 |
-| `gdb` | 调试器，程序崩溃时定位问题 |
-| `git` | 版本控制工具，协作开发必备 |
-
-> 📷 **截图占位**：`pacman` 安装工具链的终端输出（待补充）
+| 包                          | 提供什么                   |
+| -------------------------- | ---------------------- |
+| `base-devel` + `toolchain` | GCC/G++ 编译器及基础开发工具     |
+| `cmake`                    | CMake 构建工具（我们项目的主构建工具） |
+| `ninja`                    | 快速的构建执行器，配合 CMake 使用   |
+| `make`                     | 传统构建工具，部分老项目需要         |
+| `gdb`                      | 调试器，程序崩溃时定位问题          |
+| `git`                      | 版本控制工具，协作开发必备          |
 
 ## 2. 验证安装
 
@@ -76,14 +74,8 @@ pacman -Q                # 查看已安装的所有包
 
 > 记住这个原则：**MSYS2 的东西只在 MSYS2 终端里用。**
 
-## 5. 关于 Python
-
-本章**不安装 Python**。视觉组的入门路线直接从 C++ 开始；Python 属于选学内容，等后面需要时（比如做深度学习）再单独配置，见 [Python 入门（选学）](../advanced/python.md)。
-
 ## Checkpoint
 
-* [ ] `gcc --version` ~ `git --version` 五条命令都能正常打印版本
+* [ ] `gcc --version` \~ `git --version` 五条命令都能正常打印版本
 * [ ] 能用 `pacman -Ss` 搜索一个软件包
 * [ ] 能说出为什么我们不把 `ucrt64\bin` 加进 Windows PATH
-
-下一步 → [配置 VS Code](vscode-config.md)
