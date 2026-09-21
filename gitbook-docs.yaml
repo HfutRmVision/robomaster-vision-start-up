@@ -1,5 +1,4 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: RoboMaster 视觉组成长手册
   structure:
@@ -16,7 +15,7 @@ site:
           default: true
           content:
             directory: ./getting-started
-
+            language: zh
     - type: section
       key: section-about
       title: 关于我们
@@ -29,7 +28,6 @@ site:
           default: true
           content:
             directory: ./about
-
     - type: section
       key: section-basics
       title: 计算机基础知识
@@ -42,7 +40,6 @@ site:
           default: true
           content:
             directory: ./basics
-
     - type: section
       key: section-programming
       title: 语言基础与工程能力
@@ -55,7 +52,6 @@ site:
           default: true
           content:
             directory: ./programming
-
     - type: section
       key: section-vision
       title: 计算机视觉
@@ -68,7 +64,6 @@ site:
           default: true
           content:
             directory: ./vision
-
     - type: section
       key: section-camera
       title: 相机、标定与坐标变换
@@ -81,7 +76,6 @@ site:
           default: true
           content:
             directory: ./camera
-
     - type: section
       key: section-advanced
       title: 进阶方向
@@ -94,7 +88,6 @@ site:
           default: true
           content:
             directory: ./advanced
-
     - type: section
       key: section-ai
       title: 人工智能
@@ -107,7 +100,6 @@ site:
           default: true
           content:
             directory: ./ai
-
     - type: section
       key: section-tracking
       title: 目标追踪与状态预测
