@@ -38,7 +38,7 @@ icon: brain-circuit
 * YOLO：实时装甲板检测
 * RNN/LSTM：时间序列预测
 
-### 强化学习 → [详细内容](qiang-hua-xue-xi.md)
+### 强化学习 → [详细内容](../advanced/reinforcement-learning.md)
 
 智能体通过与环境交互、获取奖励，学习最优行为策略。
 

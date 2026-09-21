@@ -3,7 +3,9 @@ description: Python 入门指南
 icon: python
 ---
 
-# Python 入门
+# Python 入门（选学）
+
+> **本页是选学内容。** 视觉组新生路线直接从 C++ 开始，不要求先学 Python。当你进入深度学习阶段（需要训练模型、处理数据集）时，再回来按本页学习。
 
 ## 为什么视觉组要学 Python
 

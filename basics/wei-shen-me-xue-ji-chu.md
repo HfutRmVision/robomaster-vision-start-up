@@ -26,7 +26,7 @@ icon: block-question
 
 这些都是操作系统能帮你理解并解决的问题。你不需要成为 OS 专家，但**线程同步、内存管理、IO 模型**这些概念必须清楚。
 
-> → 详见 [操作系统](cao-zuo-xi-tong.md) 章节
+> → 详见 [WSL2 / 实体 Ubuntu（Linux 环境分支）](../advanced/linux-environment.md) 章节（进阶内容，用到再看）
 
 ## 数据结构与算法：决定你的代码跑得快不快
 
