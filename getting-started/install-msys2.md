@@ -22,8 +22,6 @@ MSYS2 是一个 Windows 上的软件发行与构建平台，提供接近 Linux �
 
 > 如果 Windows 弹出 SmartScreen 安全警告，点击「更多信息」→「仍要运行」。
 
-<figure><img src=".gitbook/assets/MSYS21.png" alt=""><figcaption></figcaption></figure>
-
 安装完成后，开始菜单里会出现一组 MSYS2 快捷方式，分别对应不同的"环境"。
 
 ## 3. MSYS2 的几种环境
@@ -54,8 +52,6 @@ pacman -Suy
 > To complete this update all MSYS2 processes including this terminal will be closed.
 
 意思是它需要**关闭终端来完成更新**。照做：关掉窗口，重新从开始菜单打开 UCRT64 终端，再次运行 `pacman -Suy`。**重复这个过程，直到它不再提示有新的更新为止。**
-
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 > **为什么必须更新？** MSYS2 是滚动更新的发行版，不先更新就安装软件包，很容易出现依赖错乱或签名错误。以后每次安装新包之前，也建议先 `pacman -Suy`。
 
