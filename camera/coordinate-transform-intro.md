@@ -43,12 +43,12 @@ $$
 T = \begin{bmatrix} R & t \\ 0 & 1 \end{bmatrix}, \quad \text{其中 } R \in \mathbb{R}^{3\times3},\ t \in \mathbb{R}^{3\times1}
 $$
 
-* $R$ 为旋转矩阵，描述坐标系之间的旋转关系
-* $t$ 为平移向量，描述坐标系之间的平移关系
+* R 为旋转矩阵，描述坐标系之间的旋转关系
+* t 为平移向量，描述坐标系之间的平移关系
 
 ### 旋转表示方法
 
-* **欧拉角（Euler Angles）**：使用绕固定坐标轴（如 X、Y、Z）旋转的三个角度（通常称为 "roll-滚转"、"pitch-俯仰"、"yaw-偏航"）来表示物体的姿态。欧拉角直观易懂，但存在**万向节死锁（Gimbal Lock）**问题——当两个旋转轴重合时会丢失一个自由度，导致某些姿态无法正确表示，不适用于连续旋转场景
+* **欧拉角（Euler Angles）**：使用绕固定坐标轴（如 X、Y、Z）旋转的三个角度（通常称为 "roll-滚转"、"pitch-俯仰"、"yaw-偏航"）来表示物体的姿态。欧拉角直观易懂，但存在\*\*万向节死锁（Gimbal Lock）\*\*问题——当两个旋转轴重合时会丢失一个自由度，导致某些姿态无法正确表示，不适用于连续旋转场景
 * **四元数（Quaternion）**：由一个实数部分和一个三维向量部分组成，能以更紧凑、连续、无奇异点的方式表示旋转，广泛应用于三维图形、机器人、SLAM 和视觉导航等领域
 
 ## 坐标系变换应用场景
@@ -59,12 +59,12 @@ $$
 
 ## Python 和 C++ 中常用的坐标变换库
 
-| 功能 | Python 库 | C++ 库 |
-| --- | --- | --- |
-| 齐次变换 | `numpy` + `scipy.spatial.transform` | Eigen |
-| PNP 解算 | `cv2.solvePnP` (OpenCV) | `cv::solvePnP` (OpenCV) |
-| 四元数计算 | `scipy.spatial.transform.Rotation` | Eigen、Sophus |
-| TF 坐标树 | `tf` / `tf2_ros` (ROS) | `tf2` (ROS) |
+| 功能     | Python 库                            | C++ 库                   |
+| ------ | ----------------------------------- | ----------------------- |
+| 齐次变换   | `numpy` + `scipy.spatial.transform` | Eigen                   |
+| PNP 解算 | `cv2.solvePnP` (OpenCV)             | `cv::solvePnP` (OpenCV) |
+| 四元数计算  | `scipy.spatial.transform.Rotation`  | Eigen、Sophus            |
+| TF 坐标树 | `tf` / `tf2_ros` (ROS)              | `tf2` (ROS)             |
 
 ## 完整的坐标变换链路（从像素到枪口）
 
