@@ -12,8 +12,6 @@ icon: stairs
 * 需要上真机、需要 ROS 2 通信框架时 → [ROS 2 机器人操作系统](ros2.md)
 * 需要完整的 Linux 环境（ROS 2、Jetson 部署）时 → [WSL2 / 实体 Ubuntu](linux-environment.md)
 * 做自动步兵、自动导航方向时 → [SLAM 简介](slam.md)
-* 探索智能决策方向时 → [强化学习](/broken/pages/6nOqwDtoYaqiehTTXLzt)
-* 做深度学习、需要 Python 训练模型时 → [Python 入门（选学）](/broken/pages/0AsWaEHdeIqjKtitSrdK)
 
 ## 各页导读
 
@@ -22,7 +20,5 @@ icon: stairs
 | [WSL2 / 实体 Ubuntu](linux-environment.md)            | Linux 环境分支：什么时候切、怎么切，Linux 常用命令 | 需要 ROS 2 或上真机前 |
 | [ROS 2 机器人操作系统](ros2.md)                            | 节点、话题、服务，机器人模块间通信框架             | 项目进入多模块协作阶段    |
 | [SLAM 简介](slam.md)                                  | 同步定位与建图，自动导航的核心                 | 做自动步兵方向        |
-| [强化学习](/broken/pages/6nOqwDtoYaqiehTTXLzt)          | 智能体通过试错学习决策                     | 探索方向，有余力再看     |
-| [Python 入门（选学）](/broken/pages/0AsWaEHdeIqjKtitSrdK) | Python 语法与科学计算生态                | 进入深度学习阶段前      |
 
 > 进阶方向没有固定顺序，按需选学。遇到不懂的前置概念，回到对应的基础章节补。
