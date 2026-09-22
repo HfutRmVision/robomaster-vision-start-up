@@ -24,15 +24,3 @@ icon: github
 * **csdiy-wiki**：[https://csdiy.wiki/](https://csdiy.wiki/) — 计算机自学指南
 * **OI Wiki**：[https://oi-wiki.org/](https://oi-wiki.org/) — 数据结构与算法知识库
 * **The Algorithms**（GitHub）：[https://github.com/TheAlgorithms](https://github.com/TheAlgorithms) — 多语言数据结构实现代码
-
-## 图书馆资源
-
-* **合肥工业大学校图书馆**（校外请使用 合工大WEBVPN 登录）：[https://lib.hfut.edu.cn/portal/](https://lib.hfut.edu.cn/portal/)
-* **中国国家数字图书馆**：[http://www.nlc.cn/](http://www.nlc.cn/)
-
-## 学术资源
-
-* **中国知网**（使用校图书馆账号授权登录）：[https://www.cnki.net/](https://www.cnki.net/)
-* **arXiv**：[https://arxiv.org/](https://arxiv.org/) — 预印本论文库，AI/CV 领域最新研究
-* **Google Scholar**：[https://scholar.google.com/](https://scholar.google.com/) — 学术搜索
-* **Papers with Code**：[https://paperswithcode.com/](https://paperswithcode.com/) — 论文 + 代码，找复现方案必备
