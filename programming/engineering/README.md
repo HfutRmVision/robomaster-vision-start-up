@@ -30,7 +30,6 @@ icon: hammer-brush
 ### 调试技能
 
 * **GDB**：C/C++ 程序调试利器，能设断点、查看变量、单步执行
-* **Valgrind**：内存泄漏检测工具
 * **printf 大法**：最朴素但最有效的调试方式——在关键位置打印变量值
 
 GDB 文档：[https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)

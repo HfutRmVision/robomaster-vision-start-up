@@ -1,9 +1,9 @@
 ---
-description: C/C++ 入门指南
+description: C++ 入门指南
 icon: copyright
 ---
 
-# C/C++ 入门
+# C++ 入门
 
 ## C 和 C++ 的区别
 
@@ -58,7 +58,6 @@ icon: copyright
 
 **视频课程**
 
-* B 站浙江大学翁恺 C 语言（BV 号：BV1dr4y1n7vA）
 * B 站黑马程序员 C++ 教程（BV 号：BV1et411b73Z）
 
 ## Checkpoint
