@@ -81,8 +81,8 @@ icon: microchip-ai
 深度学习的环境配置（CUDA、PyTorch、conda）在以下章节展开：
 
 * [Conda 环境管理](conda.md)
-* [CUDA 与 PyTorch](cuda-yu-pytorch.md)
-* [模型量化与部署](mo-xing-liang-hua-yu-bu-shu.md)
+* [CUDA 与 PyTorch](cuda-and-pytorch.md)
+* [模型量化与部署](model-quantization-and-deployment.md)
 
 ## Checkpoint
 

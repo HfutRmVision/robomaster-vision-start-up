@@ -70,7 +70,7 @@ VS Code 是我们的主力代码编辑器。这一页把它和 MSYS2 打通：�
 1. 底部状态栏点「No Kit Selected」，选择 **GCC for x86\_64-w64-mingw32（UCRT64）** 对应的 kit
 2. 生成器选 **Ninja**（如果询问的话）
 
-以后每次打开项目，点底部状态栏的 **Build** 即可编译，**运行/调试图标**即可执行。具体怎么写 `CMakeLists.txt`，见 [Makefile 与 CMake](../programming/engineering/makefile-yu-cmake.md) 章节。
+以后每次打开项目，点底部状态栏的 **Build** 即可编译，**运行/调试图标**即可执行。具体怎么写 `CMakeLists.txt`，见 [Makefile 与 CMake](../programming/engineering/makefile-and-cmake.md) 章节。
 
 ## 6. 可选进阶：clangd 与 clang-format（初学者可跳过）
 

@@ -3,23 +3,10 @@ site:
   title: RoboMaster 视觉组成长手册
   structure:
     - type: section
-      key: section-getting-started
-      title: 入门准备
-      path: getting-started
-      default: true
-      children:
-        - type: space
-          key: space-getting-started
-          title: 入门准备
-          path: getting-started
-          default: true
-          content:
-            directory: ./getting-started
-            language: zh
-    - type: section
       key: section-about
       title: 关于我们
       path: about
+      default: true
       children:
         - type: space
           key: space-about
@@ -29,17 +16,18 @@ site:
           content:
             directory: ./about
     - type: section
-      key: section-basics
-      title: 计算机基础知识
-      path: basics
+      key: section-getting-started
+      title: 入门准备
+      path: getting-started
       children:
         - type: space
-          key: space-basics
-          title: 计算机基础知识
-          path: basics
+          key: space-getting-started
+          title: 入门准备
+          path: getting-started
           default: true
           content:
-            directory: ./basics
+            directory: ./getting-started
+            language: zh
     - type: section
       key: section-programming
       title: 语言基础与工程能力
@@ -77,18 +65,6 @@ site:
           content:
             directory: ./camera
     - type: section
-      key: section-advanced
-      title: 进阶方向
-      path: advanced
-      children:
-        - type: space
-          key: space-advanced
-          title: 进阶方向
-          path: advanced
-          default: true
-          content:
-            directory: ./advanced
-    - type: section
       key: section-tracking
       title: 目标追踪与状态预测
       path: tracking
@@ -100,3 +76,15 @@ site:
           default: true
           content:
             directory: ./tracking
+    - type: section
+      key: section-advanced
+      title: 进阶方向
+      path: advanced
+      children:
+        - type: space
+          key: space-advanced
+          title: 进阶方向
+          path: advanced
+          default: true
+          content:
+            directory: ./advanced

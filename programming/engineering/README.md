@@ -16,7 +16,7 @@ icon: hammer-brush
 * 学会通过 Pull Request 进行代码审查与合并
 * 能解决代码冲突
 
-> → 详见 [Git 与 GitHub](git-yu-github.md) 章节
+> → 详见 [Git 与 GitHub](git-and-github.md) 章节
 
 ### 构建工具（CMake）
 
@@ -25,7 +25,7 @@ icon: hammer-brush
 * 能配置第三方库依赖和编译选项
 * 实现跨平台构建
 
-> → 详见 [Makefile 与 CMake](makefile-yu-cmake.md) 章节
+> → 详见 [Makefile 与 CMake](makefile-and-cmake.md) 章节
 
 ### 调试技能
 

@@ -52,7 +52,7 @@ icon: camera-polaroid
   * **Siamese 网络**（如 SiamFC、SiamRPN）
   * **基于检测 + 关联的跟踪框架**（如 Deep SORT）
 
-> 深度学习跟踪方法可结合检测结果与运动信息，提高稳定性与鲁棒性。详见 [目标追踪与预测](../tracking/mu-biao-zhui-zong-yu-yu-ce-jian-jie.md) 章节。
+> 深度学习跟踪方法可结合检测结果与运动信息，提高稳定性与鲁棒性。详见 [目标追踪与预测](../tracking/tracking-and-prediction-intro.md) 章节。
 
 ## 动作识别与时序预测
 

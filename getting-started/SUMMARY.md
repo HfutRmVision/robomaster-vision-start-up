@@ -5,3 +5,4 @@
 * [安装工具链](install-toolchain.md)
 * [验证与排坑](verify-and-troubleshoot.md)
 * [配置 VS Code](vscode-config.md)
+* [公共资源](open-resources.md)

@@ -54,7 +54,7 @@ cmake --build .
 
 同样输出 `Hello, RoboMaster!`，说明 CMake + Ninja 这条主线也通了。
 
-> 这三条命令（`cmake` 配置 → `cmake --build` 构建 → 运行）是以后每个项目的固定流程，想要理解每一步在做什么，详见 [Makefile 与 CMake](../programming/engineering/makefile-yu-cmake.md)。
+> 这三条命令（`cmake` 配置 → `cmake --build` 构建 → 运行）是以后每个项目的固定流程，想要理解每一步在做什么，详见 [Makefile 与 CMake](../programming/engineering/makefile-and-cmake.md)。
 
 ## 3. 常见坑自查表
 
