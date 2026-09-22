@@ -51,27 +51,6 @@ icon: head-side-goggles
 3. 学会基本几何变换与图像操作
 4. 进阶学习特征提取、轮廓分析、颜色分割
 
-> 推荐先用 Python 版 OpenCV 了解各模块的基本功能，再在实际开发时用 C++ 版 OpenCV 提高运行速度与效率。
-
-## 安装
-
-**Python 版（pip 安装）：**
-
-```bash
-pip install opencv-python
-pip install opencv-contrib-python  # 含额外模块
-```
-
-**C++ 版（Ubuntu apt 安装）：**
-
-```bash
-sudo apt install libopencv-dev
-```
-
-**C++ 版（源码编译，推荐）：**
-
-可获取最新版本并自定义编译选项，详见 OpenCV 官方教程。
-
 ## Checkpoint
 
 * [ ] 能用 OpenCV 读取图片并显示
