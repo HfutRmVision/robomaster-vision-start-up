@@ -20,10 +20,11 @@ icon: github
 
 * **OI Wiki**：[https://oi-wiki.org/](https://oi-wiki.org/) — 数据结构与算法知识库
 * **csdiy-wiki**：[https://csdiy.wiki/](https://csdiy.wiki/) — 计算机自学指南
+* **菜鸟教程**[https://www.runoob.com/](https://www.runoob.com/) — 编程快速入门
 
 ## 图书馆资源
 
-* **合肥工业大学校图书馆**（校外请使用 VPN 登录）：[https://lib.hfut.edu.cn/portal/](https://lib.hfut.edu.cn/portal/)
+* **合肥工业大学校图书馆**（校外请使用 合工大WEBVPN 登录）：[https://lib.hfut.edu.cn/portal/](https://lib.hfut.edu.cn/portal/)
 * **中国国家数字图书馆**：[http://www.nlc.cn/](http://www.nlc.cn/)
 
 ## 学术资源
@@ -32,11 +33,3 @@ icon: github
 * **arXiv**：[https://arxiv.org/](https://arxiv.org/) — 预印本论文库，AI/CV 领域最新研究
 * **Google Scholar**：[https://scholar.google.com/](https://scholar.google.com/) — 学术搜索
 * **Papers with Code**：[https://paperswithcode.com/](https://paperswithcode.com/) — 论文 + 代码，找复现方案必备
-
-## RoboMaster 视觉开源项目
-
-* **沈阳航空航天大学 T-DT 战队**视觉开源代码
-* **华南理工大学 SCUT-RobotPilot** 视觉开源代码
-* **哈尔滨工业大学 HIT-CSL** 视觉开源代码
-
-> 各战队开源项目每年赛季结束后会陆续在 GitHub 和 RoboMaster 论坛发布，建议关注。
