@@ -62,12 +62,6 @@ icon: copyright
 * B 站浙江大学翁恺 C 语言（BV 号：BV1dr4y1n7vA）
 * B 站黑马程序员 C++ 教程（BV 号：BV1et411b73Z）
 
-## 开发环境
-
-* **Linux**：GCC + GDB + CMake（推荐），或 VS Code + C/C++ 插件。安装命令：`sudo apt install build-essential gdb cmake`
-* **Windows**：MSVC 或 MinGW，建议用 WSL2 开发
-* **构建工具**：CMake（必学），详见 [Makefile 与 CMake](engineering/makefile-yu-cmake.md) 章节
-
 ## Checkpoint
 
 * [ ] 理解指针的概念，能正确使用指针操作数组
