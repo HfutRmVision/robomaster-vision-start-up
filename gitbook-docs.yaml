@@ -1,0 +1,90 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: RoboMaster 视觉组成长手册
+  structure:
+    - type: section
+      key: section-about
+      title: 关于我们
+      path: about
+      default: true
+      children:
+        - type: space
+          key: space-about
+          title: 关于我们
+          path: about
+          default: true
+          content:
+            directory: ./about
+    - type: section
+      key: section-getting-started
+      title: 入门准备
+      path: getting-started
+      children:
+        - type: space
+          key: space-getting-started
+          title: 入门准备
+          path: getting-started
+          default: true
+          content:
+            directory: ./getting-started
+            language: zh
+    - type: section
+      key: section-programming
+      title: 语言基础与工程能力
+      path: programming
+      children:
+        - type: space
+          key: space-programming
+          title: 语言基础与工程能力
+          path: programming
+          default: true
+          content:
+            directory: ./programming
+    - type: section
+      key: section-vision
+      title: 计算机视觉
+      path: vision
+      children:
+        - type: space
+          key: space-vision
+          title: 计算机视觉
+          path: vision
+          default: true
+          content:
+            directory: ./vision
+    - type: section
+      key: section-camera
+      title: 相机、标定与坐标变换
+      path: camera
+      children:
+        - type: space
+          key: space-camera
+          title: 相机、标定与坐标变换
+          path: camera
+          default: true
+          content:
+            directory: ./camera
+    - type: section
+      key: section-tracking
+      title: 目标追踪与状态预测
+      path: tracking
+      children:
+        - type: space
+          key: space-tracking
+          title: 目标追踪与状态预测
+          path: tracking
+          default: true
+          content:
+            directory: ./tracking
+    - type: section
+      key: section-advanced
+      title: 进阶方向
+      path: advanced
+      children:
+        - type: space
+          key: space-advanced
+          title: 进阶方向
+          path: advanced
+          default: true
+          content:
+            directory: ./advanced

@@ -16,7 +16,7 @@ icon: hammer-brush
 * 学会通过 Pull Request 进行代码审查与合并
 * 能解决代码冲突
 
-> → 详见 [Git 与 GitHub](git-yu-github.md) 章节
+> → 详见 [Git 与 GitHub](git-and-github.md) 章节
 
 ### 构建工具（CMake）
 
@@ -25,12 +25,11 @@ icon: hammer-brush
 * 能配置第三方库依赖和编译选项
 * 实现跨平台构建
 
-> → 详见 [Makefile 与 CMake](makefile-yu-cmake.md) 章节
+> → 详见 [Makefile 与 CMake](makefile-and-cmake.md) 章节
 
 ### 调试技能
 
 * **GDB**：C/C++ 程序调试利器，能设断点、查看变量、单步执行
-* **Valgrind**：内存泄漏检测工具
 * **printf 大法**：最朴素但最有效的调试方式——在关键位置打印变量值
 
 GDB 文档：[https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
