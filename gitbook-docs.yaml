@@ -89,18 +89,6 @@ site:
           content:
             directory: ./advanced
     - type: section
-      key: section-ai
-      title: 人工智能
-      path: ai
-      children:
-        - type: space
-          key: space-ai
-          title: 人工智能
-          path: ai
-          default: true
-          content:
-            directory: ./ai
-    - type: section
       key: section-tracking
       title: 目标追踪与状态预测
       path: tracking
