@@ -80,27 +80,27 @@ make
 
 ### 常用 CMake 命令
 
-| 命令 | 作用 |
-| --- | --- |
+| 命令                                     | 作用            |
+| -------------------------------------- | ------------- |
 | `cmake_minimum_required(VERSION 3.10)` | 指定最低 CMake 版本 |
-| `project(name)` | 定义项目名称 |
-| `set(CMAKE_CXX_STANDARD 17)` | 设置 C++ 标准 |
-| `find_package(OpenCV REQUIRED)` | 查找第三方库 |
-| `include_directories(dir)` | 添加头文件搜索路径 |
-| `add_executable(name src...)` | 添加可执行文件 |
-| `add_library(name src...)` | 添加库 |
-| `target_link_libraries(name lib...)` | 链接库 |
+| `project(name)`                        | 定义项目名称        |
+| `set(CMAKE_CXX_STANDARD 17)`           | 设置 C++ 标准     |
+| `find_package(OpenCV REQUIRED)`        | 查找第三方库        |
+| `include_directories(dir)`             | 添加头文件搜索路径     |
+| `add_executable(name src...)`          | 添加可执行文件       |
+| `add_library(name src...)`             | 添加库           |
+| `target_link_libraries(name lib...)`   | 链接库           |
 
 ## Makefile vs. CMake
 
-| 比较维度 | Makefile | CMake |
-| --- | --- | --- |
-| 跨平台 | 否（需手动处理） | 自动生成不同平台构建系统 |
-| 适合项目规模 | 小型项目 | 中大型项目，模块化、可扩展 |
-| 易用性 | 需要手写依赖关系 | 自动依赖管理，结构清晰 |
-| 主流支持 | 被支持 | 被广泛使用，ROS、OpenCV 等都用 CMake |
+| 比较维度   | Makefile | CMake                      |
+| ------ | -------- | -------------------------- |
+| 跨平台    | 否（需手动处理） | 自动生成不同平台构建系统               |
+| 适合项目规模 | 小型项目     | 中大型项目，模块化、可扩展              |
+| 易用性    | 需要手写依赖关系 | 自动依赖管理，结构清晰                |
+| 主流支持   | 被支持      | 被广泛使用，ROS、OpenCV 等都用 CMake |
 
-> 在 RoboMaster 中，**推荐使用 CMake** 管理项目。ROS 2 的构建工具 `colcon` 也是基于 CMake 的。
+> 在 RoboMaster 中，**推荐使用 CMake** 管理项目。
 
 ## 推荐学习资源
 
